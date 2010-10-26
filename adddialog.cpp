@@ -4,6 +4,7 @@ AddDialog::AddDialog(QWidget *parent)
     : QDialog(parent)
 {
   // Init UI
+  //
     setupUi(this);
 }
 
