@@ -122,6 +122,7 @@ public:
         label->setText(QApplication::translate("AddressBookClass", "<No item selected>", 0, QApplication::UnicodeUTF8));
         emailLabel->setText(QApplication::translate("AddressBookClass", "TextLabel", 0, QApplication::UnicodeUTF8));
         pushButton->setText(QApplication::translate("AddressBookClass", "OK", 0, QApplication::UnicodeUTF8));
+        pushButton_2->setText(QApplication::translate("AddressBookClass", "OK", 0, QApplication::UnicodeUTF8));
     } // retranslateUi
 
 };
