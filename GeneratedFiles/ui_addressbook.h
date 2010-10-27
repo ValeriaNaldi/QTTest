@@ -1,7 +1,7 @@
 /********************************************************************************
 ** Form generated from reading UI file 'addressbook.ui'
 **
-** Created: Wed Oct 27 12:26:02 2010
+** Created: Wed Oct 27 17:37:25 2010
 **      by: Qt User Interface Compiler version 4.6.3
 **
 ** WARNING! All changes made in this file will be lost when recompiling UI file!
@@ -42,6 +42,7 @@ public:
     QLabel *label;
     QLabel *emailLabel;
     QPushButton *pushButton;
+    QPushButton *pushButton_2;
     QMenuBar *menuBar;
     QToolBar *mainToolBar;
     QStatusBar *statusBar;
@@ -50,7 +51,7 @@ public:
     {
         if (AddressBookClass->objectName().isEmpty())
             AddressBookClass->setObjectName(QString::fromUtf8("AddressBookClass"));
-        AddressBookClass->resize(600, 400);
+        AddressBookClass->resize(606, 418);
         centralWidget = new QWidget(AddressBookClass);
         centralWidget->setObjectName(QString::fromUtf8("centralWidget"));
         gridLayout = new QGridLayout(centralWidget);
@@ -95,12 +96,17 @@ public:
         pushButton = new QPushButton(centralWidget);
         pushButton->setObjectName(QString::fromUtf8("pushButton"));
 
-        gridLayout->addWidget(pushButton, 2, 1, 1, 1);
+        gridLayout->addWidget(pushButton, 1, 1, 1, 1);
+
+        pushButton_2 = new QPushButton(centralWidget);
+        pushButton_2->setObjectName(QString::fromUtf8("pushButton_2"));
+
+        gridLayout->addWidget(pushButton_2, 2, 1, 1, 1);
 
         AddressBookClass->setCentralWidget(centralWidget);
         menuBar = new QMenuBar(AddressBookClass);
         menuBar->setObjectName(QString::fromUtf8("menuBar"));
-        menuBar->setGeometry(QRect(0, 0, 600, 21));
+        menuBar->setGeometry(QRect(0, 0, 606, 21));
         AddressBookClass->setMenuBar(menuBar);
         mainToolBar = new QToolBar(AddressBookClass);
         mainToolBar->setObjectName(QString::fromUtf8("mainToolBar"));
@@ -122,6 +128,7 @@ public:
         label->setText(QApplication::translate("AddressBookClass", "<No item selected>", 0, QApplication::UnicodeUTF8));
         emailLabel->setText(QApplication::translate("AddressBookClass", "TextLabel", 0, QApplication::UnicodeUTF8));
         pushButton->setText(QApplication::translate("AddressBookClass", "OK", 0, QApplication::UnicodeUTF8));
+        pushButton_2->setText(QApplication::translate("AddressBookClass", "Cancel", 0, QApplication::UnicodeUTF8));
     } // retranslateUi
 
 };
