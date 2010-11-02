@@ -1,7 +1,7 @@
 /********************************************************************************
 ** Form generated from reading UI file 'adddialog.ui'
 **
-** Created: Wed Oct 27 12:26:02 2010
+** Created: Tue Nov 2 08:25:01 2010
 **      by: Qt User Interface Compiler version 4.6.3
 **
 ** WARNING! All changes made in this file will be lost when recompiling UI file!

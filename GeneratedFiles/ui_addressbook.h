@@ -1,7 +1,7 @@
 /********************************************************************************
 ** Form generated from reading UI file 'addressbook.ui'
 **
-** Created: Wed Oct 27 17:37:25 2010
+** Created: Tue Nov 2 08:25:01 2010
 **      by: Qt User Interface Compiler version 4.6.3
 **
 ** WARNING! All changes made in this file will be lost when recompiling UI file!
@@ -38,6 +38,7 @@ public:
     QVBoxLayout *verticalLayout;
     QPushButton *addButton;
     QPushButton *deleteButton;
+    QPushButton *pushButton_3;
     QSpacerItem *verticalSpacer;
     QLabel *label;
     QLabel *emailLabel;
@@ -75,6 +76,11 @@ public:
         deleteButton->setObjectName(QString::fromUtf8("deleteButton"));
 
         verticalLayout->addWidget(deleteButton);
+
+        pushButton_3 = new QPushButton(centralWidget);
+        pushButton_3->setObjectName(QString::fromUtf8("pushButton_3"));
+
+        verticalLayout->addWidget(pushButton_3);
 
         verticalSpacer = new QSpacerItem(20, 40, QSizePolicy::Minimum, QSizePolicy::Expanding);
 
@@ -125,6 +131,7 @@ public:
         AddressBookClass->setWindowTitle(QApplication::translate("AddressBookClass", "AddressBook", 0, QApplication::UnicodeUTF8));
         addButton->setText(QApplication::translate("AddressBookClass", "Add", 0, QApplication::UnicodeUTF8));
         deleteButton->setText(QApplication::translate("AddressBookClass", "Delete", 0, QApplication::UnicodeUTF8));
+        pushButton_3->setText(QApplication::translate("AddressBookClass", "Modify", 0, QApplication::UnicodeUTF8));
         label->setText(QApplication::translate("AddressBookClass", "<No item selected>", 0, QApplication::UnicodeUTF8));
         emailLabel->setText(QApplication::translate("AddressBookClass", "TextLabel", 0, QApplication::UnicodeUTF8));
         pushButton->setText(QApplication::translate("AddressBookClass", "OK", 0, QApplication::UnicodeUTF8));
