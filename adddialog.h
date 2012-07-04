@@ -8,7 +8,7 @@ using namespace Ui;
 
 class AddDialog : public QDialog, public AddDialogClass
 {
-    Q_OBJECT
+       Q_OBJECT
 
 public:
     AddDialog(QWidget *parent = 0);
